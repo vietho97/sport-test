@@ -17,35 +17,21 @@ class CountriesTableSeeder extends Seeder
     {
         DB::table('countries')->insert([
             [
-                'id' => Str::uuid(),
-                'name' => 'Italy',
-                'logo' => 'italy.png',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'id' => Str::uuid(),
+                'id' => '02f3108b-a11b-4039-9ba7-0bbd46bf0a92',
                 'name' => 'Spain',
                 'logo' => 'spain.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'id' => Str::uuid(),
+                'id' => '79221ed7-93c7-454f-827f-72124407d1cc',
                 'name' => 'Germany',
                 'logo' => 'germany.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'id' => Str::uuid(),
-                'name' => 'France',
-                'logo' => 'france.png',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'id' => Str::uuid(),
+                'id' => 'f72252f4-0525-40d5-a78c-b8f8c17bb215',
                 'name' => 'England',
                 'logo' => 'england.png',
                 'created_at' => now(),

@@ -17,37 +17,23 @@ class CompetitionsTableSeeder extends Seeder
     {
         $competitions = [
             [
-                'id' => Str::uuid(),
+                'id' => '5bd1a008-5b6a-44c1-85c2-780542ed8c7b',
                 'name' => 'Premier League',
                 'logo' => 'premier_league_logo.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'id' => Str::uuid(),
+                'id' => '77e27475-582e-4eb9-9271-bb5628dd57c7',
                 'name' => 'La Liga',
                 'logo' => 'la_liga_logo.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'id' => Str::uuid(),
-                'name' => 'Serie A',
-                'logo' => 'serie_a_logo.png',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'id' => Str::uuid(),
+                'id' => '2bbbb090-2d90-4cf8-8620-8827bd8ca33c',
                 'name' => 'Bundesliga',
                 'logo' => 'bundesliga_logo.png',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'id' => Str::uuid(),
-                'name' => 'Ligue 1',
-                'logo' => 'ligue_1_logo.png',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
